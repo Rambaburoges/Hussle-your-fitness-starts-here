@@ -222,9 +222,72 @@ margin-left: 20px;
 padding: 20px;
 text-justify: auto;
 text-align: left;
-font-size: 15px;
+font-size: 18px;
 margin-bottom: 20px;
 }
+.promisecss3{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+.promisecsstable1{
+margin-left: 20rem;    
+    width: 60%;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+.promisecsstable1 h5{
+    line-height: 1.5;
+}
+.promisecsstable1 ul{
+list-style: none;
+}
+.promisecsstable1 li{
+    text-align: left;
+}
+.promisecsstable1 ul li h5 .fa-times{
+    color:red;
+    padding-right: 5px;
+}
+.promisecsstabel2 ul li h5 .fa-check{
+    color:green;
+    padding-right: 5px;
+}
+.about-box-heading h4 span{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.about-box-heading h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.promisecsstabel2{
+    width: 60%;
+    margin-left: 20rem;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 15px 5px;
+margin-bottom: 20px;
+}
+.promisecsstabel2 li{
+text-align: left;
+}
+.promisecsstabel2 ul{
+    list-style: none;
+}
+.promisecsstabel2 h5{
+    line-height: 1.5;
+}
+
+
+
+
+
+/*ABout*/
 /* form*/
 .formcss{
     padding: 20px;
