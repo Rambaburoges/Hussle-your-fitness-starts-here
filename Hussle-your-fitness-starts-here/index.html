@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/fontawesome.css">
     <!--Animate css-->
     <link rel="stylesheet" href="./css/animate/animate.css">
     <!--owl css-->
@@ -44,29 +45,26 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="about.html">Get Started</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="showcase">
+    <section class="showcase" id="home">
         <div class="video-container">
             <video loop autoplay muted src="./assets/video/Brand_Loop_1440x625_V3.1.mp4">
             </video>
-
         </div>
         <div class="content">
             <h1>One Mirror Every Workout</h1>
             <h3>10+ Locations</h3>
             <a href="#about" class="btn">Read More</a>
         </div>
-
     </section>
-
     <section class="benefits">
         <div class="benefits-container">
             <div class="benefits-heading">
@@ -104,49 +102,145 @@
             </div>
     </section>
 
-
-
-
-
-
-
-
-
-
     <section id="unknown2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="primal-left">
-                        <h3>PRIMAL 7 FOR</h3>
-                        <h1>HOME USE</h1>
+                        <h4>PRIMAL 7 FOR</h4>
+                        <h2>HOME USE</h2>
                         <div class="heading-underline"></div>
                         <p>Overcome limitations due to pain, age, or weight and get
-                            the exercise you need to feel confident and strong.</p>
+                            the exercise you need to feel confident and strong. limitations due to pain, age, or weight
+                        </p>
+                        <button class="btn btn-white">
+                            LEARN MORE
+                        </button>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="promal-right">
-                        <h3>PRIMAL 7 FOR</h3>
-                        <h1>HOME USE</h1>
+                    <div class="primal-right">
+                        <h4>PRIMAL 7 FOR</h4>
+                        <h2>HOME USE</h2>
                         <div class="heading-underline"></div>
                         <p>Overcome limitations due to pain, age, or weight and get
                             the exercise you need to feel confident and strong.</p>
+
+                        <button class="btn btn-white">
+                            LEARN MORE
+                        </button>
                     </div>
                 </div>
-
             </div>
         </div>
-
-
-
     </section>
 
 
 
+    <section id="about">
+        <div class="about-content text-center py-20">
+            <h1>About</h1>
+            <div class="heading-underline"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-heading ">
+                            <h2>
+                                REBORN OF AS A NECESSITY
+                            </h2>
+                            <div class="heading-underline"></div>
+                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sit dolor minus
+                                ea dolore quae? Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit, mollitia. Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Doloremque earum repellendus ipsum cumque! Adipisci blanditiis assumenda facere
+                                cupiditate placeat architecto! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quasi, officia?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-image">
+                            <img src="./assets/img/about/image-asset.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="about-content2">
+                            <div class="promisecss">
+                                <img src="./assets/img/icons/primal-promise.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="promisecss2">
+                                <h1 class="text-center">OUR “MAKE MOM PROUD” PROMISE
+                                </h1>
+                                <div class="heading-underline"></div>
+                                <p>Our mothers taught us to lead with compassion, and follow with respect and
+                                    gratitude. Webuilt this into our values so we never lose focus (and so we don’t get
+                                    in
+                                    trouble). Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, labore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
-    <!---owl carousel-->
+
+    <!--Contact-->
+    <section id="contact">
+
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12 heightcss">
+                    <form action="javascript:void(0);" method="POST" id="contact_now" name="contact_now"
+                        class="form-horizontal formcss">
+                        <div class="row paddinglr0 form-group fullrow">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="fname" id="fname"
+                                        class="required form-control formborder fname formcssfn"
+                                        placeholder="First Name" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="lname" id="lname"
+                                        class="required form-control formborder lname formcssln" placeholder="Last Name"
+                                        required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email"
+                                        class="required form-control formborder email formcsse" placeholder="Email"
+                                        required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="phone" id="phone"
+                                        class="required form-control formborder  phone formcssp"
+                                        placeholder="Mobile Number" maxlength="10" required="">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea type="text" name="message" id="message"
+                                    class="required form-control formborder message formcssm" placeholder="Message"
+                                    required=""></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" name="submit" id="submit" value="submit" class="btn btn-submit">
+                                    SUBMIT
+                                </button>
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </form>
+        </div>
+
+    </section>
     <section id="clients">
         <div class="content-box">
             <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -193,81 +287,84 @@
             </div>
         </div>
     </section>
+    <!--
+                        <h3>Company</h3>
+                        <a href="#">EMPLOYEE WELLNESS</a>
+                        <a href="#">PRESS</a>
+                        <a href="">PRIVACY POLICY</a>
+                        
+                        <a href=""></a>-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section id="about">
-        <div class="about-content">
-            <h1>About</h1>
-            <div class="heading-underline"></div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="">
-                        <h2>
-                            REBORN OF AS A NECESSITY
-                        </h2>
-                        <div class="heading-underline"></div>
-
+    <footer>
+        <div class="Footer-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer-about">
+                            <img src="./assets/img/logo/logo.png" alt="">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam facilis alias
+                                repellendus. Nemo doloremque consequuntur totam itaque commodi saepe dolores
+                                aspernatur
+                                tempora ducimus natus!
+                            </p>
+                            <button class="btn btn-white">
+                                SIGN UP FOR DISCOUNTS
+                            </button>
+                        </div>
                     </div>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sit dolor minus
-                        ea dolore quae? Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Suscipit, mollitia.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="about-image">
-                        <img src="./assets/img/about/image-asset.jpeg" alt="">
+                    <div class="col-md-2">
+                        <div class="footer-hussle">
+                            <h4><strong>HUSSLE</strong></h4>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="footer-support">
+                            <h4><strong>SUPPORT</strong></h4>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                            <a href="#">EMPLOYEE WELLNESS</a>
+                            <a href="#">PRESS</a>
+                            <a href="#">PRIVACY POLICY</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-social">
+                            <h4><strong>SOCIAL</strong></h4>
+                            <!--Facebook-->
+                            <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button>
+                            <!--Twitter-->
+                            <button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button>
+                            <!--Google +-->
+                            <button type="button" class="btn btn-gplus"><i class="fab fa-google-plus-g"></i></button>
+                            <!--Linkedin-->
+                            <button type="button" class="btn btn-li"><i class="fab fa-linkedin-in"></i></button>
+                            <!--Instagram-->
+                            <button type="button" class="btn btn-ins"><i class="fab fa-instagram"></i></button>
+                            <h5> All Rights Reserved <Span>&copy</Span>2020</h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
 
-        <div class="about-content2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="promisecss">
-                        <img src="./assets/img/icons/primal-promise.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <h1>OUR “MAKE MOM PROUD” PROMISE
-                    </h1>
-                    <div class="heading-underline"></div>
-                    <h5>Our mothers taught us to lead with compassion, and follow with respect and gratitude. We built
-                        this into our values so we never lose focus (and so we don’t get in trouble).
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
 
 
     <!----jquery-->

@@ -129,9 +129,41 @@ font-weight: bold;
 
 }
 
+/*hussle*section1*/ 
+.primal-left{
+    padding: 30px 20px;
+}
+.primal-left h2{
+    text-align: center ;
+}
+.primal-left p{
+    margin-top: 10px;
+}
 
+.primal-right{
+    padding: 30px 20px;
+}
+.primal-right h2{
+    text-align: center ;
+}
 
+.primal-right p{
+    margin-top: 10px;
+}
+.btn-white{
+    color: #000;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 20px 200px;
+}
 
+.btn-white:hover{
+    background-color: #e6e7e8;
+    color: #000;
+}
 
 #client img {
     max-width: 300px;
@@ -153,4 +185,128 @@ font-weight: bold;
 
 .content-title-white h3 {
     color: #fff;
+}
+
+/*about */
+.about-heading{
+        padding-top: 20px;
+        margin-top: 20px;
+}
+.about-heading p{
+    text-align: left;
+    padding: 20px 20px;
+    margin:20px 20px;
+    font-size: 15px;
+}
+.about-image{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.about-content2{
+    margin-top: 30px;
+    padding-top:20px ;
+}
+.promisecss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promisecss2 p{
+margin-left: 20px;
+padding: 20px;
+text-justify: auto;
+text-align: left;
+font-size: 15px;
+margin-bottom: 20px;
+}
+/* form*/
+.formcss{
+    padding: 20px;
+    margin: 35px 0 0 0;
+  }
+  .heightcss {
+    background: #3b2314;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+  .textarea.form-control {
+    height: 130px;
+}
+.formcssfn {
+    margin: 0 0 20px 34px;
+}
+.form-control {
+    display: block;
+    width: 98%;
+    height: 44px;
+    padding: 23px 18px;
+    font-size: 14px;
+    border: none;
+    line-height: 1.42857143;
+    color: #ffffff;
+    background-color: transparent;
+    box-shadow: none;
+    transition: none;
+    /* background-image: none; */
+    border: 2px solid #fff;
+    /* border-radius: 4px; */
+}
+
+/*footer  */
+.footer-about,.footer-hussle,.footer-support,.footer-social{
+    padding: 20px;
+}
+.footer-about .btn-white{
+display: inline-block;
+margin: auto;
+}
+.footer-about h3{
+   font-size: 8px; 
+}
+
+
+
+
+.fname{
+margin-left: 10px;
+}
+
+.lname{
+    margin-right: 10px;
+}
+.formcsse{
+    margin-left: 10px;
+}
+.formcssm{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+button, input, select, textarea {
+    font-family: 'Roboto';
+    font-size: 100%;
+    margin: 0;
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 50px auto;
+    background: #3b2314;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+button, input {
+    line-height: normal;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
 }
