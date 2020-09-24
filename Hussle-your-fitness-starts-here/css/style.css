@@ -79,6 +79,11 @@ transform:translate(-50%,-50%);
 background: rgba(0, 0, 0, 0.2);
 }
 
+.btn-shop{
+    margin-top: 8px;
+    background-color: #3b2314;
+    color: #ffffff;
+}
 .content{
     z-index:10;
 }
