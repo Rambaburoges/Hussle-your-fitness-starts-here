@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="row">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -50,19 +50,23 @@
             </div>
         </nav>
     </header>
-
-    <section class="showcase" id="home">
-        <div class=" video-container">
-            <video loop autoplay muted src="./assets/video/Brand_Loop_1440x625_V3.1.mp4">
-            </video>
-        </div>
-        <div class="content">
-            <h1>One Mirror Every Workout</h1>
-            <h3>10+ Locations</h3>
-            <a href="#about" class="btn">Read More</a>
-        </div>
-    </section>
-
+<div class="row">
+    <div class="col-md-12 col-sm-12 d-flex">
+        <section class="showcase" id="home">
+            <div class=" video-container">
+                <video loop autoplay muted src="./assets/video/Brand_Loop_1440x625_V3.1.mp4">
+                </video>
+            </div>
+            <div class="content">
+                <h1>One Mirror Every Workout</h1>
+                <h3>10+ Locations</h3>
+                <a href="#about" class="btn" >Read More</a>
+            </div>
+        </section>
+    
+    </div>
+</div>
+<div class="container">
     <section class="home2" id="home2">
         <div class="benefits">
             <div class="benefits-container">
@@ -70,7 +74,8 @@
                     <h2>Benefits</h2>
                     <div class="heading-underline"></div>
                 </div>
-            <div class="row">
+           
+                <div class="row">
                 <div class="col-md-4 col-sm-4">
                     <div class="benefits-box">
                         <img class="benefit-icons" src="./assets/img/icons/strength.png" alt="">
@@ -100,12 +105,18 @@
                 </div>
 
             </div>
-        </div>
+        </div></div>
     </section>
 
     <section id="home3">
     <div class="container">
-        <div class="row wow animated fadeInLeft">
+        <div class="row wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="custom-shape-divider-top-1601232262">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+           
             <div class="col-md-6 col-sm-6">
                 <div class="primal-left ">
                     <h4><b>HUSSLE FOR</b></h4>
@@ -119,11 +130,12 @@
                     <button class="btn btn-white">
                         LEARN MORE
                     </button>
+                   
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
-                <div class="primal-right wow animated fadeInRight">
-                    <h4><b>HUSSLE FOR</b></h4>
+                <div class="primal-right wow animated fadeInRight"data-wow-duration="1s" data-wow-delay=".4s">
+                     <h4><b>HUSSLE FOR</b></h4>
                     <h2>HOME USE</h2>
                     <div class="heading-underline"></div>
                     <p>Overcome limitations due to pain, age, or weight and get
@@ -131,12 +143,12 @@
 
                     <button class="btn btn-white">
                         LEARN MORE
-                    </button>
+                    </button>             
+                   
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
 </section>
 
 <section id="about">
@@ -154,23 +166,15 @@
                             </h2>
                             <div class="heading-underline"></div>
                             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sit dolor
-                                minus
-                                ea dolore quae? Lorem, ipsum dolor sit amet consectetur
+                                minus ea dolore quae? Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Suscipit, mollitia. Lorem ipsum dolor sit amet
-                                consectetur
-                                adipisicing
-                                elit. Doloremque earum repellendus ipsum cumque! Adipisci blanditiis
-                                assumenda
-                                facere
-                                cupiditate placeat architecto! Lorem ipsum dolor sit amet consectetur
-                                adipisicing
-                                elit.
-                                Quasi, officia?</p>
+                                consectetur adipisicing elit. Doloremque earum repellendus ipsum cumque! Adipisci blanditiis
+                                assumenda facere cupiditate placeat architecto! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.Quasi, officia?</p>
                         </div>
                     </div>
-            
                     <div class="col-md-6 col-sm-6">
-                        <div class="about-image wow animated fadeInDown">
+                        <div class="about-image wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                             <img src="./assets/img/about/image-asset.jpeg" alt="">
                         </div>
                     </div>
@@ -183,7 +187,7 @@
                         </div>
             
                         <div class="col-md-12 col-sm-12">
-                            <div class="promisecss2 wow animated fadeInDown">
+                            <div class="promisecss2 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".4s">
                                 <h1 class="text-center">OUR “MAKE MOM PROUD” PROMISE
                                 </h1>
                                 <div class="heading-underline"></div>
@@ -191,19 +195,18 @@
                                     respect and
                                     gratitude. Webuilt this into our values so we never lose focus (and
                                     so we don’t
-                                    get
-                                    in
+                                    get         in
                                     trouble). Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Quidem,
                                     labore.
                                 </p>
                             </div>
-                        <div class="promisecss3 animated zoomIn">
+                        <div class="promisecss3" >
                             <div class="col-md-12 col-sm-12">
                                 <div class="about-box-heading">
                                     <h4>WE WILL <span><em>NEVER</em></span></h4>
                                 </div>
-                                <div class="promisecsstable1 animated zoomIn">
+                                <div class="promisecsstable1 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
                                     <ul>
                                         <li>
                                             <h5><i class="fa fa-times sticky1" aria-hidden="true"></i>
@@ -265,14 +268,30 @@
                                     </ul>
                                 </div>
                             </div>
-        </div>        </div>
+        </div> </div>
     </div>       
     </section>
-<section id="service">
-    <div class="row">
-        <div class="container">
-    <!--Contact-->
-    <section id="contact"> 
+      <!-- basic modal -->
+      <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel"></h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h4>You Submitted successfully</h4>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact-->
+    <section id="contact contact-main"> 
         <div class="row">
         <div class="col-sm-12">
             <div class="row">
@@ -295,9 +314,11 @@
                 <div class="form-group">
                   <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
                 </div>
-                <div>
-                  <button type="submit" class="btn btn-lg btn-danger">CONTACT US</button>
-                </div>
+        <div class="row mb-4">
+          <div class="col text-center">
+            <a href="#" type="submit" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#basicModal">Submit</a>
+          </div>
+        
               </form>
             </div>
           </div>
@@ -314,7 +335,7 @@
                     <div class="heading-underline"></div>
                 </div>
                 <div class="container">
-                    <div class="row wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="col-md-12 col-sm-12">
                             <div id="clients-list" class="owl-carousel owl-theme">
                                 <div id="client">
@@ -355,16 +376,12 @@
             </div>
         </div>
     </section>
-    
-    
-    
     <footer>
         <div class="Footer-box">
             <div class="container">
-                <div class="row ">
-                    <div class="col-md-5">
-                        <div class="footer-about">
-                            <img src="./assets/img/logo/logo.png" alt="">
+                        <div class="col-md-5">
+                                        <div class="footer-about">
+                                    <img src="./assets/img/logo/logo.png" alt="">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam facilis alias
                                 repellendus. Nemo doloremque consequuntur totam itaque commodi saepe dolores
@@ -390,7 +407,6 @@
                             <a href="#">PRIVACY POLICY</a>
                         </div>
                     </div>
-
                     <div class="col-md-2">
                         <div class="footer-support">
                             <h4><strong>SUPPORT</strong></h4>
@@ -420,17 +436,12 @@
                             <button type="button" class="btn btn-ins"><i class="fab fa-instagram"></i></button>
                             <h5> All Rights Reserved <Span>&copy</Span>2020</h5>
                         </div>
-                    </div>
-                
+                    </div>                
                 </div>
             </div>
         </div>
+    
     </footer>
-
-
-
-
-
     <!----jquery-->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/jquery.waypoints.min.js"></script>
