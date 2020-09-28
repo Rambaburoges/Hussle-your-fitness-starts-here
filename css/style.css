@@ -339,6 +339,9 @@ a {
   line-height: 1.5;
 }
 
+.contact-main:focus-within {
+  background-color: #cac8c6;
+}
 /*ABout*/
 /* form*/
 
